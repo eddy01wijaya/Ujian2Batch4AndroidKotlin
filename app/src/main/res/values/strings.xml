@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Outstanding App</string>
+
+    <string name="header_main">Account Solution Data</string>
+    <string name="nama_search_placeholder_main">Name...</string>
+    <string name="btn_search_main">Search</string>
+
+    <string name="header_action">Action</string>
+    <string name="nama_placeholder_action">Name</string>
+    <string name="alamat_placeholder_action">Address</string>
+    <string name="outstanding_placeholder_action">Outstanding</string>
+
+    <string name="success_added">Data added successfully!</string>
+    <string name="please_fill">Please fill in all fields.</string>
+    <string name="currency">$</string>
+
+    <string name="previous">Prev</string>
+    <string name="next">Next</string>
+</resources>

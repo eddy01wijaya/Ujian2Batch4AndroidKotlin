@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/txtHeaderAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/header_action"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtNamaAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nama_placeholder_action"
+        android:inputType="text"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/secondaryLightColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtAlamatAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/alamat_placeholder_action"
+        android:inputType="text"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/secondaryLightColor"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtOutstandingAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/outstanding_placeholder_action"
+        android:inputType="number"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/secondaryLightColor"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSubmitAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/secondaryLightColor"
+        android:textColor="@color/backgroundColor" />
+</LinearLayout>

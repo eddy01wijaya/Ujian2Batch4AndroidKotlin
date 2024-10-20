@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477686955352",
+    "project_id": "ujian2androidkotlinid",
+    "storage_bucket": "ujian2androidkotlinid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477686955352:android:8edd0b2efcc7526ac8f92d",
+        "android_client_info": {
+          "package_name": "com.eddy01wijaya.ujian2batch4androidkotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1oLJ-fVcu_4vvBmsHZVAzs4c6OrRnCDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

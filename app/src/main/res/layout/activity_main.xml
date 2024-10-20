@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtHeaderMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/header_main"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtSearchMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="@string/nama_search_placeholder_main"
+            android:inputType="text"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/secondaryLightColor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/btnSearchMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_search_main"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ↻"
+            android:textColor="@color/textColor"
+            android:textSize="30sp"
+            app:strokeColor="@color/secondaryLightColor"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lstMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="20dp" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_margin="20dp"
+            android:text="@string/previous"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:strokeColor="@color/secondaryLightColor"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/txtCurrentPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_margin="20dp"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_margin="20dp"
+            android:text="@string/next"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+            app:strokeColor="@color/secondaryLightColor"
+            app:strokeWidth="2dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="@color/secondaryLightColor"
+        android:text="+"
+        android:textColor="@color/backgroundColor"
+        android:textSize="48sp" />
+
+</LinearLayout>
